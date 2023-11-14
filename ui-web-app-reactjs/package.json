@@ -55,7 +55,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --mode production --env.prod",
+    "build": "react-scripts --openssl-legacy-provider build",
     "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --env.dev --progress"
   },
   "main": "after-compile-plugin.js",
