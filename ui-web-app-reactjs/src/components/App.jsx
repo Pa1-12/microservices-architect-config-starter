@@ -8,7 +8,7 @@ const App = () => {
   const [displayData, setDisplayData] = useState({url:''})
 
   const handleApiCall = async (e) => {
-    const url = 'http://localhost:9999/'+e.target.name;
+    const url = 'http://18.233.226.216/'+e.target.name;
     displayData.url=url
     let options = {}
       try {
