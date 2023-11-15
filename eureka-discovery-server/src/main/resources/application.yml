@@ -1,6 +1,6 @@
 server:
   # Server port is set to 8761
-  port: 8761
+  port: 8081
   client:
     # Server doesnot required to register it self hence set to false
     registerWithEureka: false
@@ -8,4 +8,4 @@ server:
     fetchRegistry: false
     serviceUrl:
       # Server url is set to below
-      defaultZone: http://18.233.226.216:8761
+      defaultZone: http://54.86.134.223:8081
